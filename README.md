@@ -38,7 +38,7 @@ This project served as a deep dive into the practical challenges of mobile autom
 
 ## How to Use
 
-1.  Clone this repository into your Termux environment: `git clone [[URL_DO_SEU_REPO]](https://github.com/QueenOverlord/termux-obsidian-sync`
+1.  Clone this repository into your Termux environment: `git clone https://github.com/QueenOverlord/termux-obsidian-sync`
 2.  Navigate into the project directory: `cd termux-obsidian-sync`
 3.  Edit the `VAULT_PATH` variable inside `src/start-sync.sh` and `src/stop-sync.sh` to point to the correct path of your Obsidian vault.
 4.  (Recommended) To use with the Termux:Widget, create a `.shortcuts` directory in your home folder (`mkdir -p ~/.shortcuts`) and create symbolic links to the scripts:
